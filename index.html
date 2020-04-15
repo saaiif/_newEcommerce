@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ecommerce Site</title>
+  <link rel="stylesheet" href="index.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,800&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/51a50f733d.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="slick.css">
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+</head>
+
+<body>
+
+  <nav>
+
+    <div class="nav-center">
+      <button id="burger" class="burger">
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </button>
+      <div class="leftSide">
+        <div class="logo ">
+          <a href="index.html"><span>Shop</span>Lane</a></div>
+        <a href="/">Clothing</a>
+        <a href="/">Accessories</a>
+      </div>
+      <div class="searchWrapper">
+        <i class="fas fa-search"></i>
+        <input id="search-box" type="text" name="search" placeholder="Search for Clothing and Accessories" />
+      </div>
+      <div class="imgWrapper">
+        <div class="cart-btn">
+          <span class="nav-icon">
+            <i class="fas fa-cart-plus"></i>
+          </span>
+          <div class="cart-items">0</div>
+        </div>
+        <img src="/assets/avatar.jpg" />
+      </div>
+
+    </div>
+  </nav>
+
+  <div class="container" id="container">
+    <img class="containers" src="/assets/avatar.jpg" />
+    <div class="containerLeftSide">
+      <div class="containerLogo containers">
+        <a href="index.html"><span>Shop</span>Lane</a></div>
+      <a class="list" href="/">Clothing</a>
+      <a class="list" href="/">Accessories</a>
+    </div>
+    <div class="containerSearchWrapper containers">
+      <i class="fas fa-search"></i>
+      <input id="search-box2" type="text" name="search" placeholder="Search for Clothing and Accessories" />
+    </div>
+  </div>
+
+  <main>
+    <section>
+      <div class="center">
+        <img src="https://imgur.com/96OnkX7.png" />
+        <img src="https://imgur.com/KtGxwnN.png" />
+        <img src="https://imgur.com/sfjg9R8.png" />
+      </div>
+    </section>
+
+    <section id="clothing-section" class="homepage-section">
+      <h3 class="section-heading">Clothing for Men and Women</h3>
+
+      <div id="clothing-grid" class="product-grid">
+      </div>
+    </section>
+
+    <section id="accessory-section" class="homepage-section">
+      <h3 class="section-heading">Accessories for Men and Women</h3>
+
+      <div id="accessory-grid" class="product-grid">
+      </div>
+    </section>
+
+  </main>
+
+  <script src="index.js"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+</body>
+
+</html>
