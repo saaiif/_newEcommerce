@@ -31,12 +31,16 @@
 }
 
 #product-images > img {
-	width: 50px;
+	width: 100%;
+	max-width: 50px;
+	/* width: 50px; */
 	border-radius: 6px;
 	margin: 0 8px;
 	cursor: pointer;
 	border-radius: 5px;
 	padding: 4px;
+	/* display: grid; */
+	/* grid-template-columns: repeat(auto-fit, minmax(,1fr)); */
 	/* border: 2px solid gray; */
 }
 
