@@ -21,7 +21,8 @@ $(document).ready(function() {
 		arrows: false,
 		responsive: [
 			{
-				breakpoint: 768,
+				// breakpoint: 768,
+
 				settings: {
 					arrows: false,
 					centerMode: true,
@@ -30,7 +31,7 @@ $(document).ready(function() {
 				}
 			},
 			{
-				breakpoint: 480,
+				// breakpoint: 480,
 				settings: {
 					arrows: false,
 					centerMode: true,
@@ -57,7 +58,7 @@ $(document).ready(function() {
 		mainDiv.classList.add('product-card');
 
 		var productLink = document.createElement('a');
-		productLink.href = '/product/details.html?p=' + obj.id;
+		productLink.href = 'details.html?p=' + obj.id;
 
 		var productImage = document.createElement('img');
 		productImage.classList.add('product-image');
@@ -78,7 +79,8 @@ $(document).ready(function() {
 		productBrand.appendChild(productBrandText);
 
 		var productPrice = document.createElement('p');
-		var productPriceText = document.createTextNode('Rs ' + obj.price);
+		let rs = '₹ ';
+		var productPriceText = document.createTextNode(`${rs}` + obj.price);
 		productPrice.appendChild(productPriceText);
 
 		innerDiv.appendChild(productName);

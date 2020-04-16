@@ -10,8 +10,8 @@
   <script src="https://kit.fontawesome.com/51a50f733d.js" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"
     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="slick.css">
-  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <!-- <link rel="stylesheet" href="slick.css"> -->
+  <link rel="stylesheet" href="details.css">
 </head>
 
 <body>
@@ -62,24 +62,26 @@
 
   <main>
     <section>
-      <div class="center">
-        <img src="https://imgur.com/96OnkX7.png" />
-        <img src="https://imgur.com/KtGxwnN.png" />
-        <img src="https://imgur.com/sfjg9R8.png" />
-      </div>
-    </section>
+      <div class="product-wrapper">
+        <div id="product-image">
+          <div class="image-wrapper">
+            <img id="product-preview" src="../assets/default-product.png" />
+          </div>
+        </div>
+        <div id="product-details">
+          <h1 id="product-title">Product Title</h1>
+          <h1 id="product-brand">Product Brand</h1>
+          <h4 class="section-heading">&#8377; <p id="product-price">XXXX</p>
+          </h4>
+          <h4 class="section-heading">Description</h4>
+          <p id="description">Product Description</p>
+          <h4 class="section-heading">Product Preview</h4>
+          <div id="product-images">
+            <!-- <img src="../assets/default-product.png" /> -->
+          </div>
 
-    <section id="clothing-section" class="homepage-section">
-      <h3 class="section-heading">Clothing for Men and Women</h3>
-
-      <div id="clothing-grid" class="product-grid">
-      </div>
-    </section>
-
-    <section id="accessory-section" class="homepage-section">
-      <h3 class="section-heading">Accessories for Men and Women</h3>
-
-      <div id="accessory-grid" class="product-grid">
+          <button id="btn-add-to-cart">Add to Cart</button>
+        </div>
       </div>
     </section>
 
@@ -115,7 +117,7 @@
     </div>
   </footer>
   <script src="index.js"></script>
-  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="details.js"></script>
 </body>
 
 </html>

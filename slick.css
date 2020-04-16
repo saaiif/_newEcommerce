@@ -4,6 +4,13 @@
 	margin: 0 80px;
 }
 
+/* @media screen and (max-width: 768px) {
+	.slick-slide {
+		width: 100px!important;
+		height: 100px;
+	}
+} */
+
 .slick-dots {
 	list-style-type: none;
 	width: 100%;
@@ -53,7 +60,7 @@
 	max-width: 1170px;
 	margin: 0 auto;
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
 	grid-column-gap: 1.5rem;
 	grid-row-gap: 2rem;
 	/* flex-wrap: wrap; */
@@ -98,5 +105,5 @@
 	margin: 0;
 	margin-top: 12px;
 	font-weight: 600;
-	color: #009688;
+	color: #f09d51;
 }
