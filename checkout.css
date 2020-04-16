@@ -11,27 +11,24 @@
 }
 
 #content-wrapper {
-	/* display: flex;
-	justify-content: start; */
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-	grid-column-gap: 25px;
+	display: flex;
+	justify-content: start;
 }
 
 #content-wrapper > div:first-of-type {
-	margin-top: 18px;
+	width: 50%;
 }
 
 #content-wrapper > div:last-of-type {
+	width: 50%;
 	height: fit-content;
 	margin-top: 48px;
-	/* margin-left: 3%; */
-	background-color: rgb(231, 226, 221);
+	margin-left: 3%;
+
 	box-sizing: border-box;
 	box-shadow: 0 2px 5px #ccc;
 	border-radius: 5px;
 	padding: 16px;
-	/* margin: 0; */
 }
 
 .checkout-card {
@@ -39,7 +36,7 @@
 	box-sizing: border-box;
 	box-shadow: 0 2px 5px #ccc;
 	border-radius: 5px;
-	background-color: rgb(231, 226, 221);
+	background-color: white;
 	max-width: 600px;
 	padding: 16px;
 	margin-bottom: 16px;
@@ -61,7 +58,7 @@
 
 .checkout-card p {
 	margin: 0;
-	margin-top: 14px;
+	margin-top: 4px;
 	margin-bottom: 4px;
 }
 
@@ -70,29 +67,26 @@
 	color: rgba(0, 0, 0, 0.8);
 	font-weight: 400;
 	margin: 0;
-	margin-bottom: 3px;
+	margin-bottom: 16px;
 }
 
 #total-amount {
 	color: black;
 	opacity: 0.8;
-	font-size: 20px;
+	font-size: 24px;
 	font-weight: 800;
 	margin-left: 4px;
 }
-.grandTotal {
-	text-align: center;
-}
 
 #btn-place-order {
-	background-color: #f09d51;
+	background-color: #009688;
 	font-size: 18px;
 	border: 0;
 	cursor: pointer;
 	outline: none;
-	padding: 12px 36px;
+	padding: 18px 36px;
 	border-radius: 6px;
-	margin-top: 12px;
+	margin-top: 36px;
 	font-weight: 600;
 	color: rgba(0, 0, 0, 0.8);
 	color: white;
