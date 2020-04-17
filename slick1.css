@@ -21,7 +21,7 @@
 		/* height: 50px !important; */
 	}
 	.slick-dots {
-		display: none !important;
+		/* display: none !important; */
 	}
 	.slick-slide {
 		/* margin: 0 20px !important; */
@@ -35,7 +35,7 @@
 		height: 50px !important;
 	}
 	.slick-dots {
-		display: none !important;
+		/* display: none !important; */
 	}
 	.slick-slide {
 		margin: 0 10px !important;
@@ -69,7 +69,7 @@
 }
 
 .slick-active button {
-	background-color: #aaa;
+	background-color: #f09d51;
 }
 
 .homepage-section {
