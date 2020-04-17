@@ -85,7 +85,7 @@ $(document).ready(function() {
 			amount: grandTotal,
 			products: orderItemArr
 		};
-		$.post('https://5d76bf96515d1a0014085cf9.mockapi.io/order', dataObj, function() {
+		$.get('https://5d76bf96515d1a0014085cf9.mockapi.io/order/', dataObj, function() {
 			alert('Order Placed Successfully');
 			localStorage.setItem('product-list', []);
 
